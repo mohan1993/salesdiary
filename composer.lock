@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddeabc1ce42c24615f2fd0343a6ea0f2",
+    "content-hash": "408daf3dd71efa3b891ead0a30ba2c27",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2410,6 +2410,34 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+        },
+        {
+            "name": "sales/client",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../packages/client",
+                "reference": "47cf4018c6b179e20ac64210c3ca23ea682b9fc1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sales\\client\\": "src"
+                }
+            },
+            "license": [
+                "self"
+            ],
+            "authors": [
+                {
+                    "name": "Mohan Rajendra",
+                    "email": "mohan.prasad725@gmail.com"
+                }
+            ],
+            "description": "Maintain all basic client routes and configuration",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7428,7 +7456,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "sales/client": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
